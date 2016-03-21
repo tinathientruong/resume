@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata|Oswald);
+
+
+
+* html {
+	font-size: 100%;
+	box-sizing: inherit;
+}
+
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.page-wrapper {
+	position:relative;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background:  #f2afca url("images/milk_bottle.png") no-repeat 730px 600px;
+
+	 
+}
+
+@font-face {
+    font-family: Hangthedj;
+    src: url(http://www.dafont.com/hang-the-dj.font);
+}
+
+
+h1 {
+   font-family: Hangthedj;
+   color: black;
+   font-size: 70px;
+   margin-top: 40px;
+   font-weight: lighter;
+	}
+
+.donuts_line{
+	display: inline-block;
+	position: relative;
+	width:8%;
+}
+
+#divider {
+	margin-left: 20px;
+}
+
+#work_bubble, #education_bubble{
+	position: absolute;
+	display: inline-block;
+	width:40%;
+	margin-top: 14px;
+}
+
+.work2{
+	margin-top: 65px;
+}
+
+.bubble,.bubble1 
+{
+position: relative;
+width: 70%;
+height: auto;
+background: #b5ccfb;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+padding: 15px;
+}
+
+.bubble:after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 18px 21px 18px 0;
+display: block;
+border-color: transparent #b5ccfb ;
+width: 18px;
+z-index: 1;
+left: -38px;
+top: 44px;
+}
+
+.bubble1:after {
+	content: '';
+position: absolute;
+border-style: solid;
+border-width: 10px 21px 10px 0;
+display: block;
+border-color: transparent #b5ccfb; 
+width: 18px;
+z-index: 1;
+left: -38px;
+top: 25px;
+}
+
+.title{
+	font-family: 'Oswald';
+	font-size: 19px;
+	border: solid black 2px;
+	border-top: solid black 5px;
+	width: 120px;
+	padding: 5px;
+}
+
+.skills_title{
+	width: 55px;
+	margin-bottom: 10px;
+}
+
+
+.work_date, .education_date, .skill_name{
+	font-family: 'Oswald';
+	font-size: 14px;
+	margin: 5px;
+	display: block;
+	color: red;
+}
+
+.company_name{
+	text-decoration:underline;
+}
+
+.work_desc{
+	margin-top: 5px;
+}
+
+
+.company_name, .work_position, .work_desc {
+	font-family: 'Inconsolata' ;
+	color: red;
+	font-size: 15px;
+}
+
+
+#skills_container{
+	position: relative;
+	float: right;
+	width:40%;
+	margin-right: 100px;
+	margin-top: -44px;
+
+}
+
+.skill_name{
+	width: 150px;
+	font-size: 18px;
+	display: inline-block;
+	margin: 0;
+	text-decoration: underline;
+
+
+}
+
+.skill_level{
+	float: right;
+	display: inline-block;
+}
+
+.donut_container{
+	display: inline-block;
+	padding-top: 10px;
+}
+
+
+#education_container{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.education_title{
+	width: 160px;
+}
+
+#education_bubble{
+	margin-top: 
+}
+
+.edu1{
+	margin-top: 30px;
+
+}
+
+.edu2{
+	margin-top: 100px;
+}
+
+.edu3{
+	margin-top: 80px;
+}
+
+#footer{
+	background-color: white;
+	border: solid black 2px;
+	border-top: solid black 7px;
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-bottom: 100px;
+
+}
+
+.footer_item{
+	width: 49.8%;
+	display: inline-block;
+	margin:0;
+	padding:10px;
+	font-family: 'Inconsolata';	
+}
+
+#social_media{
+	padding:10px;
+	font-family: 'Inconsolata';	
+	border-top: solid black 2px;
+
+}
+
+#icons_container{
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.fa-linkedin,.fa-facebook,.fa-instagram{
+	color: red;
+	font-size: 20px;
+	display: inline-block;
+
+}
+
+.footer_item:nth-child(2),.footer_item:nth-child(4){
+	border-left:solid black 2px;
+}
+
+.footer_item:nth-child(1),.footer_item:nth-child(2){
+	border-bottom:solid black 2px;
+}
+
+
+
+
